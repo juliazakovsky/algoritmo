@@ -1,0 +1,102 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Tema geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+  }
+  
+  /* Cabeçalho com rosa escuro */
+  .header {
+    background-color: #d81b60;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navegação */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #ad1457;
+    border-radius: 4px;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 35px;
+    left: 0;
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+  
+  .dropdown-content li {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dropdown-content a {
+    color: #d81b60;
+    padding: 10px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ffe4ec;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    displa
+  
+  .container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.quadrado {
+  width: 200px;
+  height: 200px;
+  background-color: #4CAF50;
+  margin: 0 auto;
+}
+
+.texto-embaixo {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+  
