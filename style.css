@@ -1,0 +1,125 @@
+/* style.css */
+
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* rosa claro */
+    color: #4a0033; /* rosa escuro */
+    margin: 0;
+    padding: 0 20px;
+    transition: background-color 0.5s ease;
+  }
+  
+  header {
+    background-color: #ff99cc; /* rosa médio */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  /* LINKS COMO BOTÕES */
+  nav a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #cc0066;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid #cc0066;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #cc0066;
+    color: #ffffff;
+  }
+  
+  /* Separador */
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ff66b2;
+    margin: 20px 0;
+  }
+  
+  /* Conteúdo principal */
+  main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(255, 102, 178, 0.3);
+  }
+  
+  h2, h3 {
+    color: #cc0066;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Lista de perfis */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #cc0066;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    color: #99004d;
+    font-size: 0.9em;
+  }
+  
+  /* ========================= */
+  /* Estilos para TELAS PEQUENAS (< 700px) */
+  /* ========================= */
+  @media (max-width: 700px) {
+    body {
+      background-color: #a88b9d; /* rosa diferente para telas pequenas */
+    }
+  
+    nav {
+      display: none; /* Esconde os botões */
+    }
+  
+    main {
+      margin: 10px;
+      padding: 15px;
+      max-width: 100%;
+      box-shadow: none;
+    }
+  
+    header h1 {
+      font-size: 1.5em;
+    }
+  }
+  
